@@ -12,8 +12,8 @@
 <div class="panel">
     <div class="panel-middle text-center">
         <h1>
-            Selamat Datang, <span class="text-green">Administrator</span><br>
-            di Sistem Pendukung Keputusan pemilihan supplier berbasis web menggunakan metode <span class="text-green">Simple Additive Weighting</span>
+            Selamat Datang, <span class="text-green">Admin</span>!<br>
+            di Sistem Pendukung Keputusan Pemilihan Universitas berbasis web menggunakan metode <span class="text-green">Simple Additive Weighting (SAW)</span>
         </h1>
     </div>
     <div class="panel-bottom"></div>

@@ -12,9 +12,6 @@ require './connect.php';
     <link rel="stylesheet" type="text/css" href="asset/plugin/font-icon/css/fontawesome-all.min.css">
 </head>
 <body>
-<header>
-    <img src="asset/image/logo.svg" id="logo-header">
-</header>
 <nav>
     <?php include "nav.php"; ?>
 </nav>
