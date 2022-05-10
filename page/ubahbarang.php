@@ -16,8 +16,8 @@ if ($execute->num_rows > 0){
     <input type="hidden" name="id" value="<?php echo $data['id_jenisbarang']; ?>">
     <div class="panel-middle">
         <div class="group-input">
-            <label for="barang" >Nama Barang :</label>
-            <input type="text" value="<?php echo $data['namaBarang']; ?>" class="form-custom" required autocomplete="off" placeholder="Nama Barang" id="barang" name="barang">
+            <label for="barang" >Nama Team Penilai :</label>
+            <input type="text" value="<?php echo $data['namaBarang']; ?>" class="form-custom" required autocomplete="off" placeholder="Nama Team" id="barang" name="barang">
         </div>
     </div>
     <div class="panel-bottom">

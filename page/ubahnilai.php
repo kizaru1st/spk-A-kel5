@@ -21,7 +21,7 @@ while ($data=$getnilaiKriteria->fetch_array(MYSQLI_ASSOC)) {
             $data=$execute->fetch_array(MYSQLI_ASSOC);
             ?>
             <div class="group-input">
-                <label for="jenisbarang">Nama Supplier</label>
+                <label for="jenisbarang">Nama Kampus</label>
                 <input class="form-custom" value="<?php echo $data['namaSupplier'];?>" disabled type="text" autocomplete="off" required name="jenisbarang" id="jenisbarang">
             </div>
         </div>
@@ -32,7 +32,7 @@ while ($data=$getnilaiKriteria->fetch_array(MYSQLI_ASSOC)) {
             $data=$execute->fetch_array(MYSQLI_ASSOC);
             ?>
             <div class="group-input">
-                <label for="jenisbarang">Jenis Barang</label>
+                <label for="jenisbarang">Nama Lembaga</label>
                 <input class="form-custom" value="<?php echo $data['namaBarang'];?>" disabled type="text" autocomplete="off" required name="jenisbarang" id="jenisbarang" placeholder="jenisbarang">
             </div>
         </div>

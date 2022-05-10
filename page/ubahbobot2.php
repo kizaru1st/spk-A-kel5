@@ -28,7 +28,7 @@ if ($execute2->num_rows == 0){
                 $data=$execute->fetch_array(MYSQLI_ASSOC);
                 ?>
                 <div class="group-input">
-                    <label for="jenisbarang">Jenis Barang</label>
+                    <label for="jenisbarang">Daftar Mahasiswa</label>
                     <input class="form-custom" value="<?php echo $data['namaBarang'];?>" disabled type="text" autocomplete="off" required name="barang" id="barang">
                 </div>
             </div>

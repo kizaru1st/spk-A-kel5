@@ -6,9 +6,9 @@
     <input type="hidden" value="nilai" name="op">
     <div class="panel-middle">
         <div class="group-input">
-            <label for="supplier">Supplier</label>
+            <label for="supplier">Nama Kampus</label>
             <select class="form-custom" required name="supplier" id="supplier">
-                <option selected disabled>--Pilih Supplier--</option>
+                <option selected disabled>--Pilih Kampus--</option>
                 <?php
                 $query="SELECT id_supplier,namaSupplier FROM supplier";
                 $execute=$konek->query($query);
@@ -23,9 +23,9 @@
             </select>
         </div>
         <div class="group-input">
-            <label for="barang">Jenis Barang</label>
+            <label for="barang">Nama Lembaga</label>
             <select class="form-custom" required name="barang" id="barang">
-                <option selected disabled>--Pilih Jenis Barang--</option>
+                <option selected disabled>--Pilih Lembaga--</option>
                 <?php
                 $query="SELECT * FROM jenis_barang";
                 $execute=$konek->query($query);

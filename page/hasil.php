@@ -1,10 +1,8 @@
 <!-- judul -->
 <div class="panel">
     <div class="panel-middle" id="judul">
-        <img src="asset/image/rank.svg">
         <div id="judul-text">
             <h2 class="text-green">HASIL</h2>
-            Halamanan Utama Hasil Penilaian
         </div>
     </div>
 </div>
@@ -13,7 +11,7 @@
     <div class="panel-top">
         <div style="float:left;width: 300px;">
             <select class="form-custom" name="pilih"  id="pilihHasil">
-                <option disabled selected value="">-- Pilih Jenis Barang --</option>;
+                <option disabled selected value="">-- Pilih Lembaga Penilaian --</option>;
                 <?php
                 $query="SELECT*FROM jenis_barang";
                 $execute=$konek->query($query);

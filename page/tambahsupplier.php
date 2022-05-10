@@ -5,8 +5,8 @@
     <input type="hidden" name="op" value="supplier">
     <div class="panel-middle">
         <div class="group-input">
-            <label for="supplier" >Nama Supplier :</label>
-            <input type="text" class="form-custom" required autocomplete="off" placeholder="Nama Supplier" id="supplier" name="supplier">
+            <label for="supplier" >Nama Universitas :</label>
+            <input type="text" class="form-custom" required autocomplete="off" placeholder="Nama Universitas" id="supplier" name="supplier">
         </div>
     </div>
     <div class="panel-bottom">

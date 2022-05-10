@@ -1,9 +1,7 @@
 <div class="panel">
     <div class="panel-middle" id="judul">
-        <img src="asset/image/supplier.svg">
         <div id="judul-text">
-            <h2 class="text-green">Supplier</h2>
-            Halamanan Administrator Supplier
+            <h2 class="text-green">Universitas</h2>
         </div>
     </div>
 </div>
@@ -23,7 +21,7 @@
     <div class="col-8">
         <div class="panel">
             <div class="panel-top">
-                <b class="text-green">Daftar Supplier</b>
+                <b class="text-green">Daftar Universitas</b>
             </div>
             <div class="panel-middle">
                 <div class="table-responsive">

@@ -1,9 +1,7 @@
 <div class="panel">
     <div class="panel-middle" id="judul">
-        <img src="asset/image/sub-kriteria.svg">
         <div id="judul-text">
             <h2 class="text-green">SUB KRITERIA</h2>
-            Halamanan Administrator Sub Kriteria
         </div>
     </div>
 </div>

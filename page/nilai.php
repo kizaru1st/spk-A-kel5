@@ -4,7 +4,6 @@
         <img src="asset/image/bobot.svg">
         <div id="judul-text">
             <h2 class="text-green">PENILAIAN</h2>
-            Halamanan Administrator Penilaian
         </div>
     </div>
 </div>
@@ -29,7 +28,7 @@
                 <b style="float: left" class="text-green">Daftar Nilai</b>
                 <div style="float:right;width: 250px;">
                     <select class="form-custom" name="pilih" id="pilihNilai">
-                        <option value="">Semua Jenis Barang</option>;
+                        <option value="">Semua Team Penilai</option>;
                         <?php
                         $query="SELECT*FROM jenis_barang";
                         $execute=$konek->query($query);

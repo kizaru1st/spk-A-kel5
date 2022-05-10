@@ -7,9 +7,9 @@
     <input type="hidden" value="bobot" name="op">
     <div class="panel-middle">
         <div class="group-input">
-            <label for="barang">Jenis Barang</label>
+            <label for="barang">Team Penilai</label>
             <select class="form-custom" required name="barang" id="barang">
-                <option selected disabled>--Pilih Jenis Barang--</option>
+                <option selected disabled>--Team Penilai--</option>
                 <?php
                 $query="SELECT * FROM jenis_barang";
                 $execute=$konek->query($query);

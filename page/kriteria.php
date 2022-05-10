@@ -4,7 +4,6 @@
         <img src="asset/image/kriteria.svg">
         <div id="judul-text">
             <h2 class="text-green">KRITERIA</h2>
-            Halamanan Administrator Kriteria
         </div>
     </div>
 </div>
